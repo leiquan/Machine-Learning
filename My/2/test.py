@@ -4,7 +4,7 @@
 import pandas as pd
 import numpy as np
 # 使用sklearn.cross_valiation里的train_test_split模块用于分割数据。
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 # 从sklearn.preprocessing里导入StandardScaler。
 from sklearn.preprocessing import StandardScaler
 # 从sklearn.linear_model里导入LogisticRegression与SGDClassifier。
